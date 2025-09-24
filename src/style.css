@@ -32,6 +32,8 @@ body {
   height: 200px;
   border: 10px black solid;
   position: relative;
+  transform: rotateX(180deg);
+  transition: transform 0.6s ease-in-out;
   transform-style: preserve-3d;
 }
 
@@ -55,5 +57,5 @@ body {
 }
 
 .card-show {
-  transform: rotateX(-180deg);
+  transform: rotateX(0);
 }
